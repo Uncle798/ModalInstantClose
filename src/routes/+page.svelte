@@ -21,6 +21,7 @@
          {/snippet}
          {#snippet content()}
             {thing.value1}
+            {thing.value2}
             <button class="btn " onclick={()=>modalOpen=false}>Close</button>
          {/snippet}
       </Modal>
